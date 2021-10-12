@@ -1,0 +1,32 @@
+.button{
+    background: transparent;
+    border: 1px solid $dark;
+    outline: none;
+    padding:  10px 15px;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+    &:hover{
+        cursor: pointer;
+    }
+
+    transition: all .2s;
+}
+
+.button-primary{
+    background: $primary-color;
+    color: $white;
+    border: 2px solid transparent;
+    font-weight: 600;
+}
+
+.button-primary-outline{
+    background-color: transparent;
+    border: 2px solid $primary-color;
+    color: $primary-color;
+    font-weight: 600;
+
+    &:hover{
+        @extend .button-primary;
+    }
+}
