@@ -1,0 +1,65 @@
+.decorative {
+    display: block;
+    font-family: $ff-decorative;
+    font-size: 2em;
+}
+
+.main {
+
+    .aboutus,
+    .surroundings {
+        min-height: 100vh;
+    }
+
+    p#aboutus {
+        font-size: 1.2em;
+        line-height: 2em;
+    }
+}
+
+.scroll-down{
+    display: block;
+    width: fit-content;
+    color: $font-color;
+
+    &:hover{
+        color: $font-color;
+    }
+    
+    i{
+        font-size: 2em;
+    }
+}
+
+.icons-gallery {
+    .icon-gallery-item {
+        height: auto;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+
+        i {
+            font-size: 5em;
+        }
+
+        h2 {
+            padding-top: 20px;
+        }
+
+        small {
+            display: block;
+            font-size: 1em;
+            padding: 10px;
+        }
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .decorative {
+        display: none;
+    }
+
+    .nav-item:hover {
+        background-color: transparent;
+    }
+}
