@@ -123,7 +123,92 @@
                 </div>
             </div>
         </div>
+        <div class="container contact-form p-5" id='contact-form__hook'>
+            <h2 class='mt-5 mb-5'>Masz pytanie? Z miłą chęcią odpowiemy!</h2>
+            <div class="row justify-content-center">
+                <form action='https://formsubmit.co/wojciech.kondziela@onet.pl' method="POST" class='col-md-10 col-lg-8 col-xl-6 mx-auto mt-5 form' autocomplete="off">
+                    <div class="form-outline mb-4">
+                      <input type="text" name='name' id="user-name" class="form-control" required />
+                      <label class="form-label" for="user-name">Imię</label>
+                    </div>
+                    <div class="form-outline mb-4">
+                      <input type="email" name='email' id="user-email" class="form-control" required />
+                      <label class="form-label" for="user-email">Adres email</label>
+                    </div>
+                    <div class="form-outline mb-4">
+                      <textarea class="form-control" name='message' id="message" rows="4"></textarea>
+                      <label class="form-label" for="message">Wiadomość</label>
+                    </div>
+                    <input type="hidden" name='_next' value="http://127.0.0.1:5500/index.html#contact-form__hook">
+                    <button type="submit" class="btn btn-block btn-primary mb-4">Wyślij</button>
+                  </form>
+            </div>
+        </div>
     </main>
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <section class="d-flex justify-content-center p-4 border-bottom">
+          <div class="me-5 d-none d-lg-block">
+            <span>Znajdź mnie na social mediach:</span>
+          </div>
+          <div>
+            <a href="" target="_blank" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" target="_blank" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" target="_blank" class="me-4 text-reset">
+                <i class="fas fa-bold"></i>
+            </a>
+          </div>
+        </section>
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3  text-center">
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Przejdź do
+                </h6>
+                <p>
+                  <a href="#" class="text-reset">Strona główna</a>
+                </p>
+                <p>
+                  <a href="#aboutme__hook" class="text-reset">O mnie</a>
+                </p>
+                <p>
+                  <a href="#contact__hook" class="text-reset">Kontakt</a>
+                </p>
+              </div>
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Adres
+                </h6>
+                <p>
+                    ul. Lipowa 46a
+                </p>
+                <p>
+                    43-450 Ustroń
+                </p>
+              </div>
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Kontakt
+                </h6>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  chabrowa@chatka.pl
+                </p>
+                <p><i class="fas fa-phone me-3"></i> 111 222 333</p>
+              </div>
+    
+            </div>
+          </div>
+        </section>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">chabrowa.chatka.pl</a>
+        </div>
+      </footer>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
 </body>
 

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap");
 *::selection {
-  background-color: #3300cc;
+  background-color: #1266F1;
   color: #fff;
 }
 
@@ -10,7 +10,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #8f6900;
+  background-color: #1266F1;
   border-radius: 3px;
 }
 
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .button-primary, .button-primary-outline:hover {
-  background: #3300cc;
+  background: #1266F1;
   color: #fff;
   border: 2px solid transparent;
   font-weight: 600;
@@ -55,8 +55,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .button-primary-outline {
   background-color: transparent;
-  border: 2px solid #3300cc;
-  color: #3300cc;
+  border: 2px solid #1266F1;
+  color: #1266F1;
   font-weight: 600;
 }
 .home-link {
@@ -136,6 +136,38 @@ h1, h2, h3, h4, h5, h6 {
   .nav-item:hover {
     background-color: transparent;
   }
+}
+.form-control:focus ~ .form-label {
+  color: #1266F1;
+}
+
+.form-control:focus ~ .form-notch .form-notch-middle {
+  border-bottom: 0.125rem solid;
+  border-color: #1266F1;
+}
+
+.form-control:focus ~ .form-notch .form-notch-leading {
+  border-right: none;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.form-control:focus ~ .form-notch .form-notch-trailing {
+  border-left: none;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.form-control:focus ~ .form-notch .form-notch-leading {
+  border-top: 0.125rem solid #1266F1;
+  border-bottom: 0.125rem solid #1266F1;
+  border-left: 0.125rem solid #1266F1;
+}
+
+.form-control:focus ~ .form-notch .form-notch-trailing {
+  border-top: 0.125rem solid #1266F1;
+  border-bottom: 0.125rem solid #1266F1;
+  border-right: 0.125rem solid #1266F1;
 }
 
 /*# sourceMappingURL=main.css.map */
