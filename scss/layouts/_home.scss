@@ -1,9 +1,3 @@
-.decorative {
-    display: block;
-    font-family: $ff-decorative;
-    font-size: 2em;
-}
-
 .main {
 
     .aboutus,
@@ -62,33 +56,4 @@
     .nav-item:hover {
         background-color: transparent;
     }
-}
-
-.form-control:focus ~ .form-label{
-    color: $primary-color;
-}
-
-.form-control:focus ~ .form-notch .form-notch-middle{
-    border-bottom:.125rem solid;
-    border-color: $primary-color;
-}
-
-.form-control:focus ~ .form-notch .form-notch-leading{
-    border-right:none;
-    -webkit-transition:all .2s linear;
-    transition:all .2s linear
-}
-
-.form-control:focus~.form-notch .form-notch-trailing{
-    border-left:none;
-    -webkit-transition:all .2s linear;
-    transition:all .2s linear
-}
-
-.form-control:focus~.form-notch .form-notch-leading{
-    border-top:.125rem solid $primary-color;border-bottom:.125rem solid $primary-color;border-left:.125rem solid $primary-color;
-};
-
-.form-control:focus~.form-notch .form-notch-trailing{
-    border-top:.125rem solid $primary-color;border-bottom:.125rem solid $primary-color;border-right:.125rem solid $primary-color;
 }

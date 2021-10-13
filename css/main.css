@@ -59,6 +59,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #1266F1;
   font-weight: 600;
 }
+.decorative {
+  display: block;
+  font-family: "Fleur De Leah", cursive;
+  font-size: 2em;
+}
+
 .home-link {
   color: #303030;
 }
@@ -81,12 +87,6 @@ h1, h2, h3, h4, h5, h6 {
 .nav-item:hover {
   background-color: #e2e2e2;
   border-radius: 3px;
-}
-
-.decorative {
-  display: block;
-  font-family: "Fleur De Leah", cursive;
-  font-size: 2em;
 }
 
 .main .aboutus,
@@ -137,37 +137,12 @@ h1, h2, h3, h4, h5, h6 {
     background-color: transparent;
   }
 }
-.form-control:focus ~ .form-label {
-  color: #1266F1;
-}
-
-.form-control:focus ~ .form-notch .form-notch-middle {
-  border-bottom: 0.125rem solid;
-  border-color: #1266F1;
-}
-
-.form-control:focus ~ .form-notch .form-notch-leading {
-  border-right: none;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-
-.form-control:focus ~ .form-notch .form-notch-trailing {
-  border-left: none;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-
-.form-control:focus ~ .form-notch .form-notch-leading {
-  border-top: 0.125rem solid #1266F1;
-  border-bottom: 0.125rem solid #1266F1;
-  border-left: 0.125rem solid #1266F1;
-}
-
-.form-control:focus ~ .form-notch .form-notch-trailing {
-  border-top: 0.125rem solid #1266F1;
-  border-bottom: 0.125rem solid #1266F1;
-  border-right: 0.125rem solid #1266F1;
+.contact-el {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=main.css.map */
