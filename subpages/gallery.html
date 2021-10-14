@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chabrowa Chatka - Kontakt</title>
+    <title>Chabrowa Chatka - Galeria zdjęć</title>
     <link rel="stylesheet" href="../css/main.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
+    <link href="../lightbox/lightbox2-2.11.3/dist/css/lightbox.css" rel="stylesheet">
 </head>
 
 <body>
@@ -28,13 +29,13 @@
                             <a class="nav-link" aria-current="page" href="../index.html">Strona główna</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="gallery.html">Galeria</a>
+                            <a class="nav-link" href="#">Galeria</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Oferta</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Kontakt</a>
+                            <a class="nav-link" href="contact.html">Kontakt</a>
                         </li>
                     </ul>
                 </div>
@@ -42,37 +43,33 @@
         </nav>
     </header>
     <main class='main'>
-        <div class="container-fluid p-5 my-5">
-            <h2 class='mt-5'>Kontakt</h2>
-            <div class="row justify-content-center mt-5 col-10 mx-auto">
-                <div class="col-12 col-md-6 col-lg-4 contact-el">
-                    <p>
-                        <i class="fas fa-phone me-3"></i> 111 222 333
-                    </p>
-                    <p>
-                        <i class="fas fa-phone me-3"></i> 33 854 00 00
-                    </p>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 contact-el">
-                    <p>
-                        <i class="fas fa-map-marker-alt me-3"></i> Ustroń, ul. Akacjowa 40
-                    </p>
-                    <p>
-                        <i class="fas fa-envelope me-3"></i> chabrowa@chatka.pl
-                    </p>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 contact-el">
-                    <p>
-                        <i class="fas fa-money-check me-3"></i> Numer konta bankowego:</p>
-                    <p>12 2345 7890 1234 5678 9012 3456</p>
-                </div>
-            </div>
-            <div class="col-12">
-                <iframe class='mt-5' src="https://www.google.com/maps/d/u/0/embed?mid=1b3RhbwkgjB23tHJqisxDI4UWuM_5EiA8"
-                width="100%"
-                height="450"
-                style='border: 0;'
-                allowfullscreen="loading='lazy'"></iframe>
+        <div class="container p-5 mt-5">
+            <h2 class='mb-4'>Galeria</h2>
+            <div class="image-gallery">
+                <a href="../img/gallery/bg-img-1.jpg" class='img-1' data-lightbox='our-gallery' data-title='Nasza chatka'>
+                    <i class="fas fa-expand"></i>
+                </a>
+                <a href="../img/gallery/building.jpg" class='img-2' data-lightbox='our-gallery' data-title='Postawniony szkielet konstrukcji'>
+                    <i class="fas fa-expand"></i>
+                </a>
+                <a href="../img/gallery/chaber.jpg" class='img-3' data-lightbox='our-gallery' data-title='Chaber'>
+                    <i class="fas fa-expand"></i>
+                </a>
+                <a href="../img/gallery/malaczantoria.jpg" class='img-4' data-lightbox='our-gallery' data-title='Widok na Małą Czantorię'>
+                    <i class="fas fa-expand"></i>
+                </a>
+                <a href="../img/gallery/wnetrze.jpg" class='img-5' data-lightbox='our-gallery' data-title='Wnętrze domku'>
+                    <i class="fas fa-expand"></i>
+                </a>
+                <a href="../img/gallery/sarny.png" class='img-6' data-lightbox='our-gallery' data-title='Nasi ostatni mali goście'>
+                    <i class="fas fa-expand"></i>
+                </a>
+                <a href="../img/gallery/wodospad.jpg" class='img-7' data-lightbox='our-gallery' data-title='Wodospad na dopływie wisły, niedaleko chatki'>
+                    <i class="fas fa-expand"></i>
+                </a>
+                <a href="../img/gallery/szczepanski.jpg" class='img-8' data-lightbox='our-gallery' data-title='Pomnik prof. Jana Szczepańskiego przed biblioteką miejską w Ustroniu'>
+                    <i class="fas fa-expand"></i>
+                </a>
             </div>
         </div>
     </main>
@@ -141,6 +138,7 @@
         </div>
       </footer>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+    <script src="../lightbox/lightbox2-2.11.3/dist/js/lightbox-plus-jquery.js"></script>
 </body>
 
 </html>
