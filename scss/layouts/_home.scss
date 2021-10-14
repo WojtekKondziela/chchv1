@@ -11,20 +11,6 @@
     }
 }
 
-.scroll-down{
-    display: block;
-    width: fit-content;
-    color: $font-color;
-
-    &:hover{
-        color: $font-color;
-    }
-    
-    i{
-        font-size: 2em;
-    }
-}
-
 .icons-gallery {
     .icon-gallery-item {
         height: auto;

@@ -31,3 +31,8 @@
         border-radius: 3px;
     }
 }
+
+.fix-size{
+    max-height: 45px !important;
+    min-height: 45px !important;
+}
