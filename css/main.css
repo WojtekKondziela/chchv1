@@ -97,6 +97,10 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 45px !important;
 }
 
+.list {
+  list-style-type: none;
+}
+
 .main .aboutus,
 .main .surroundings {
   min-height: 100vh;
@@ -187,11 +191,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .image-gallery .img-1 {
   grid-area: img1;
-  background-image: url("../../img/gallery/bg-img-1.jpg");
+  background-image: url("../../img/gallery/budowa.jpg");
 }
 .image-gallery .img-2 {
   grid-area: img2;
-  background-image: url("../../img/gallery/building.jpg");
+  background-image: url("../../img/gallery/budowa2.jpg");
 }
 .image-gallery .img-3 {
   grid-area: img3;
@@ -203,11 +207,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .image-gallery .img-5 {
   grid-area: img5;
-  background-image: url("../../img/gallery/wnetrze.jpg");
+  background-image: url("../../img/gallery/bela.jpg");
 }
 .image-gallery .img-6 {
   grid-area: img6;
-  background-image: url("../../img/gallery/sarny.png");
+  background-image: url("../../img/gallery/widokzrownicy.jpg");
 }
 .image-gallery .img-7 {
   grid-area: img7;
@@ -216,7 +220,7 @@ h1, h2, h3, h4, h5, h6 {
 .image-gallery .img-8 {
   grid-area: img8;
   min-height: 31rem;
-  background-image: url("../../img/gallery/szczepanski.jpg");
+  background-image: url("../../img/gallery/porzeczki.jpg");
 }
 
 @media only screen and (max-width: 1100px) {
