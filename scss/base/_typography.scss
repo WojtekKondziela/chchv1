@@ -1,5 +1,5 @@
 *{
-    font-family: $ff;
+    font-family: $font-family;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .brand-heading{
-    font-family: $ff-decorative;
+    font-family: $font-family-decorative;
     font-size: 3em;
+}
+
+.list{
+    list-style-type: none;
 }

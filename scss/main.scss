@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
-@import './abstracts/colors';
-@import './abstracts/mixins';
-@import './base/font-face';
+@import './variables';
+@import './mixins/mixins';
 @import './base/root';
 @import './base/typography';
 @import './components/buttons';
-@import './components/gallery';
 @import './components/header';
-@import './components/list';
 @import './layouts/home';
 @import './layouts/contact';
 @import './layouts/gallery';
