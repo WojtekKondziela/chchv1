@@ -229,6 +229,11 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 21rem;
   }
 }
+@media only screen and (max-width: 550px) {
+  .image-gallery .img-3 {
+    min-height: 15rem;
+  }
+}
 .image-gallery .img-4 {
   grid-area: img4;
   background-image: url("../img/gallery/malaczantoria.jpg");
@@ -259,6 +264,11 @@ h1, h2, h3, h4, h5, h6 {
 @media only screen and (max-width: 770px) {
   .image-gallery .img-8 {
     min-height: 21rem;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .image-gallery .img-8 {
+    min-height: 15rem;
   }
 }
 
