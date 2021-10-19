@@ -5,28 +5,29 @@
         min-height: 100vh;
     }
 
-    p#aboutus {
+    .aboutus {
         font-size: 1.2em;
         line-height: 2em;
     }
 }
 
-.icons-gallery {
-    .icon-gallery-item {
+.surroundings-gallery {
+    
+    .surroundings-gallry__item {
         height: auto;
         margin-top: 100px;
         display: flex;
         flex-direction: column;
 
-        i {
+        .surroundings-gallery__icon {
             font-size: 5em;
         }
 
-        h2 {
+        .surroundings-gallery__heading {
             padding-top: 20px;
         }
 
-        small {
+        .surroundings-gallery__description {
             display: block;
             font-size: 1em;
             padding: 10px;

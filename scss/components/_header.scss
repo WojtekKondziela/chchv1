@@ -1,4 +1,4 @@
-.decorative {
+.decorative{
     display: block;
     font-family: $font-family-decorative;
     font-size: 2em;
@@ -13,21 +13,17 @@
 }
 
 .bg-img{
-    height: 100vh;
-    background-image: linear-gradient(
-
-        rgba(0,0,0,0.3),
-        rgba(0,0,0,0.3)
-
-    ), url(../img/bg-img-1.jpg);
-
     @include centerBackgroundImg();
+    
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../img/bg-img-1.jpg);
 }
 
 .nav-item{
     padding: 0 15px;
     min-height: 40px !important;
     max-height: 40px !important;
+
     &:hover{
         background-color: $light;
         border-radius: 3px;
