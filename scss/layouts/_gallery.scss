@@ -70,8 +70,8 @@
             position: relative;
             z-index: 100;
             padding: 1rem 2rem;
-            border: .125em solid $light-half-transparent;
-            border-radius: 4px;
+            border: .225rem solid $light-half-transparent;
+            border-radius: .25rem;
             opacity: 0;
             transition: opacity .5s;
         }

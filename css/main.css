@@ -13,12 +13,12 @@ body *::after {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 0.6rem;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #1266F1;
-  border-radius: 3px;
+  border-radius: 0.25rem;
 }
 
 ::selection {
@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .brand-heading {
   font-family: "Fleur De Leah", cursive;
-  font-size: 3em;
+  font-size: 3rem;
 }
 
 .list {
@@ -42,10 +42,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .button {
   background: transparent;
-  border: 1px solid #303030;
+  border: 0.05rem solid #303030;
   outline: none;
-  padding: 10px 15px;
-  border-radius: 3px;
+  padding: 0.7rem 1rem;
+  border-radius: 0.25rem;
   text-transform: uppercase;
   transition: all 0.2s;
 }
@@ -56,20 +56,20 @@ h1, h2, h3, h4, h5, h6 {
 .button-primary, .button-primary-outline:hover {
   background: #1266F1;
   color: #fff;
-  border: 2px solid transparent;
+  border: 0.125rem solid transparent;
   font-weight: 600;
 }
 
 .button-primary-outline {
   background-color: transparent;
-  border: 2px solid #1266F1;
+  border: 0.125rem solid #1266F1;
   color: #1266F1;
   font-weight: 600;
 }
 .decorative {
   display: block;
   font-family: "Fleur De Leah", cursive;
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .home-link {
@@ -89,46 +89,46 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-item {
-  padding: 0 15px;
-  min-height: 40px !important;
-  max-height: 40px !important;
+  padding: 0 1rem;
+  min-height: 2.5rem !important;
+  max-height: 2.5rem !important;
   text-align: center;
 }
 .nav-item:hover {
   background-color: #e2e2e2;
-  border-radius: 3px;
+  border-radius: 0.18rem;
 }
 
 .fix-size {
-  max-height: 45px !important;
-  min-height: 45px !important;
+  max-height: 2.8rem !important;
+  min-height: 2.8rem !important;
 }
 
 .main .aboutus {
-  font-size: 1.2em;
-  line-height: 2em;
+  font-size: 1.3rem;
+  line-height: 2rem;
 }
 
 .surroundings-gallery .surroundings-gallry__item {
   height: auto;
-  margin-top: 100px;
+  margin-top: 6.25rem;
   display: flex;
   flex-direction: column;
 }
 .surroundings-gallery .surroundings-gallry__item .surroundings-gallery__icon {
-  font-size: 5em;
+  font-size: 5rem;
 }
 .surroundings-gallery .surroundings-gallry__item .surroundings-gallery__heading {
-  padding-top: 20px;
+  padding-top: 1.25rem;
 }
 .surroundings-gallery .surroundings-gallry__item .surroundings-gallery__description {
   display: block;
-  font-size: 1em;
-  padding: 10px;
+  font-size: 1rem;
+  padding: 0.67rem;
 }
 
 .contact-col {
-  padding: 15px;
+  padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -193,8 +193,8 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 100;
   padding: 1rem 2rem;
-  border: 0.125em solid rgba(255, 255, 255, 0.5);
-  border-radius: 4px;
+  border: 0.225rem solid rgba(255, 255, 255, 0.5);
+  border-radius: 0.25rem;
   opacity: 0;
   transition: opacity 0.5s;
 }

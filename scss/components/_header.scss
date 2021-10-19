@@ -1,7 +1,7 @@
 .decorative{
     display: block;
     font-family: $font-family-decorative;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .home-link{
@@ -20,18 +20,18 @@
 }
 
 .nav-item{
-    padding: 0 15px;
-    min-height: 40px !important;
-    max-height: 40px !important;
+    padding: 0 1rem;
+    min-height: 2.5rem !important;
+    max-height: 2.5rem !important;
     text-align: center;
 
     &:hover{
         background-color: $light;
-        border-radius: 3px;
+        border-radius: .18rem;
     }
 }
 
 .fix-size{
-    max-height: 45px !important;
-    min-height: 45px !important;
+    max-height: 2.8rem !important;
+    min-height: 2.8rem !important;
 }

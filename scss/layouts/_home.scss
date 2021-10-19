@@ -1,8 +1,8 @@
 .main {
 
     .aboutus {
-        font-size: 1.2em;
-        line-height: 2em;
+        font-size: 1.3rem;
+        line-height: 2rem;
     }
 }
 
@@ -10,22 +10,22 @@
     
     .surroundings-gallry__item {
         height: auto;
-        margin-top: 100px;
+        margin-top: 6.25rem;
         display: flex;
         flex-direction: column;
 
         .surroundings-gallery__icon {
-            font-size: 5em;
+            font-size: 5rem;
         }
 
         .surroundings-gallery__heading {
-            padding-top: 20px;
+            padding-top: 1.25rem;
         }
 
         .surroundings-gallery__description {
             display: block;
-            font-size: 1em;
-            padding: 10px;
+            font-size: 1rem;
+            padding: .67rem;
         }
     }
 }

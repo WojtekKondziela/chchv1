@@ -2,10 +2,10 @@
 
 .button{
     background: transparent;
-    border: 1px solid $dark;
+    border: .05rem solid $dark;
     outline: none;
-    padding:  10px 15px;
-    border-radius: 3px;
+    padding:  .7rem 1rem;
+    border-radius: .25rem;
     text-transform: uppercase;
 
     &:hover{
@@ -18,13 +18,13 @@
 .button-primary{
     background: $primary-color;
     color: $white;
-    border: 2px solid transparent;
+    border: .125rem solid transparent;
     font-weight: 600;
 }
 
 .button-primary-outline{
     background-color: transparent;
-    border: 2px solid $primary-color;
+    border: .125rem solid $primary-color;
     color: $primary-color;
     font-weight: 600;
 
